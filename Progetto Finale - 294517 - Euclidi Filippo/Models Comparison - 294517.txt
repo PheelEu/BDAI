@@ -1,0 +1,115 @@
+# Feature selection using the chi-square function 
+
+            Specs          Score
+0   battery_power   14129.866576
+1            blue       0.723232
+2     clock_speed       0.648366
+3        dual_sim       0.631011
+4              fc      10.135166
+5          four_g       1.521572
+6      int_memory      89.839124
+7           m_dep       0.745820
+8       mobile_wt      95.972863
+9         n_cores       9.097556
+10             pc       9.186054
+11      px_height   17363.569536
+12       px_width    9810.586750
+13            ram  931267.519053
+14           sc_h       9.614878
+15           sc_w      16.480319
+16      talk_time      13.236400
+17        three_g       0.327643
+18   touch_screen       1.928429
+19           wifi       0.422091
+
+Logistic Regression Classifier
+Accuracy score: 0.9620000000000001 
+F1 Score:0.9619377956142546 
+Average Precision Matrix:
+[[49.   1.   0.   0. ]
+ [ 1.5 47.4  1.1  0. ]
+ [ 0.   1.6 47.   1.4]
+ [ 0.   0.   1.  49. ]]
+
+
+Decision Tree Classifier
+Accuracy score: 0.844 
+F1 Score:0.8444580967177296 
+Average Precision Matrix:
+[[44.9  5.1  0.   0. ]
+ [ 4.2 40.4  5.4  0. ]
+ [ 0.   5.2 40.2  4.6]
+ [ 0.   0.   6.7 43.3]]
+
+Random Forest Classifier
+Accuracy score: 0.8845000000000001 
+F1 Score:0.8843368710493296 
+Average Precision Matrix:
+[[47.6  2.4  0.   0. ]
+ [ 3.8 41.9  4.3  0. ]
+ [ 0.   5.6 41.2  3.2]
+ [ 0.   0.   3.8 46.2]]
+
+Support Vector Machine Classifier
+Accuracy score: 0.9504999999999999 
+F1 Score:0.950297976732335 
+Average Precision Matrix:
+[[49.1  0.9  0.   0. ]
+ [ 1.5 47.7  0.8  0. ]
+ [ 0.   2.6 45.   2.4]
+ [ 0.   0.   1.7 48.3]]
+
+ Bagging Classifier
+Accuracy score: 0.8955 
+F1 Score:0.8956810077693241 
+Average Precision Matrix:
+[[46.7  3.3  0.   0. ]
+ [ 3.1 44.4  2.5  0. ]
+ [ 0.   3.7 42.5  3.8]
+ [ 0.   0.   4.5 45.5]]
+
+ AdaBoost (No fine tuning)
+Accuracy score: 0.6864999999999999 
+F1 Score:0.674323003581756 
+Average Precision Matrix:
+[[27.6 22.4  0.   0. ]
+ [ 1.8 41.2  7.   0. ]
+ [ 0.   5.6 41.   3.4]
+ [ 0.   0.  22.5 27.5]]
+
+ AdaBoost (Fine tuning)
+Accuracy score: 0.8240000000000001 
+F1 Score:0.8237982233056649 
+Average Precision Matrix:
+[[43.   7.   0.   0. ]
+ [ 3.9 38.7  7.4  0. ]
+ [ 0.   5.3 38.5  6.2]
+ [ 0.   0.   5.4 44.6]]
+
+ Gradient Boosting
+Accuracy score: 0.9135 
+F1 Score:0.9135708926872181 
+Average Precision Matrix:
+[[47.6  2.4  0.   0. ]
+ [ 2.3 45.3  2.4  0. ]
+ [ 0.   3.5 43.8  2.7]
+ [ 0.   0.   4.  46. ]]
+
+
+Extreme Gradient Boosting:
+Accuracy score: 0.9149999999999998 
+F1 Score:0.91513587333773 
+Average Precision Matrix:
+[[47.6  2.4  0.   0. ]
+ [ 3.  44.6  2.4  0. ]
+ [ 0.   3.  44.5  2.5]
+ [ 0.   0.   3.7 46.3]]}
+
+Neural Network:
+Accuracy score: 0.955 
+F1 Score:0.9550304936153993 
+Precision Matrix:
+[[47  1  0  0]
+ [ 1 50  1  0]
+ [ 0  3 46  1]
+ [ 0  0  2 48]]
